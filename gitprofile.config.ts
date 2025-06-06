@@ -80,10 +80,17 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'Wilcore',
+      position: 'Software Engineer',
+      from: 'March 2025',
+      to: 'Present',
+      companyLink: 'https://www.wilcore.io/',
+    },
+    {
       company: 'Oddball',
       position: 'Software Engineer',
       from: 'February 2023',
-      to: 'Present',
+      to: 'March 2025',
       companyLink: 'https://oddball.io',
     },
     {
