@@ -66,25 +66,29 @@ const CONFIG = {
       'https://github.com/bramleyjl/bramleyjl.github.io/blob/main/bramleyjl_resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'Ruby/Rails',
     'JavaScript',
     'Node.js',
     'PHP',
-    'React.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git/Github',
-    'Docker',
+    'Ruby on Rails',
+    'Express',
+    'Angular',
+    'React',
+    'SQL/MySQL/PostgreSQL',
     'MongoDB',
+    'HTML/CSS',
+    'Git',
     'Nginx',
+    'Bash',
     'Postman',
+    'Docker',
+    'Datadog',
     'AWS',
-    'Heroku'
+    'Argo CD'
   ],
   experiences: [
     {
       company: 'Wilcore',
-      position: 'Software Engineer',
+      position: 'Senior Software Engineer',
       from: 'March 2025',
       to: 'Present',
       companyLink: 'https://www.wilcore.io/',
