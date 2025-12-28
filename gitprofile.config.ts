@@ -40,19 +40,22 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: ' bramleyjl',
-    twitter: '',
+    linkedin: 'bramleyjl',
+    x: '',
     mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
+    reddit: '',
+    threads: '',
     youtube: '',
+    udemy: '',
     dribbble: '',
     behance: '',
     medium: '',
     dev: '',
     stackoverflow: '',
-    skype: '',
+    discord: '',
     telegram: '',
     website: '',
     phone: '',
@@ -135,10 +138,7 @@ const CONFIG = {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
-  hotjar: {
-    id: '',
-    snippetVersion: 6,
-  },
+  hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
     defaultTheme: 'business',
 
@@ -187,19 +187,11 @@ const CONFIG = {
       'dim',
       'nord',
       'sunset',
+      'caramellatte',
+      'abyss',
+      'silk',
       'procyon',
     ],
-
-    // Custom theme, applied to `procyon` theme
-    customTheme: {
-      primary: '#fc055b',
-      secondary: '#219aaf',
-      accent: '#e8d03a',
-      neutral: '#2A2730',
-      'base-100': '#E3E3ED',
-      '--rounded-box': '3rem',
-      '--rounded-btn': '3rem',
-    },
   },
 
   // Optional Footer. Supports plain text or HTML.
